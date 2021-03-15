@@ -39,9 +39,9 @@ function NavBar() {
         <div className="navBar__toggleButton">
           <IconButton onClick={() => setToggleBtn(!toggleBtn)}>
             {toggleBtn ? (
-              <CloseIcon fontSize="large" />
+              <CloseIcon fontSize="large" style={{ color: "yellow" }} />
             ) : (
-              <MenuIcon fontSize="large" />
+              <MenuIcon fontSize="large" style={{ color: "yellow" }} />
             )}
           </IconButton>
         </div>
