@@ -4,7 +4,7 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <div className="navBar">
-      <div className="navBar-container">
+      <div className="navBar-container container">
         <div className="navBar__logo">
           <h1>sadda-adda</h1>
         </div>
