@@ -1,6 +1,9 @@
 .navBar {
   background-color: var(--dark);
   color: var(--secondary);
+  z-index: 1;
+  width: 100%;
+  position: fixed;
 }
 
 .navBar-container {
