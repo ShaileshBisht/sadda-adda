@@ -2,9 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
   height: 50px;
   overflow: hidden;
+  position: relative;
+  transition: all 0.8s ease-in;
 }
 
 .navBar__logo {
@@ -27,4 +28,39 @@
   text-transform: uppercase;
   padding: 2px 10px;
   margin-left: 20px;
+}
+
+.navBar__toggleButton {
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .navBar__menu {
+    display: none;
+  }
+
+  .navBar-container.active {
+    flex-direction: column;
+    height: 335px;
+  }
+
+  .navBar__menu.active {
+    display: flex !important;
+    display: inline;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  .navBar-container.active .navBar__link {
+    margin-left: 0;
+    margin: 10px 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .navBar__toggleButton {
+    display: initial;
+  }
 }
