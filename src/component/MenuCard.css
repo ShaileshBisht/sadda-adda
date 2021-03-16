@@ -1,6 +1,7 @@
 .menuCard {
   width: 100%;
   height: 300px;
+  position: relative;
 }
 
 .menuCard__img {

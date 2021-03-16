@@ -8,6 +8,9 @@ function MenuCard() {
       <div className="menuCard__img">
         <img src={img1} alt="" />
       </div>
+      <div className="menuCard__name">
+        <p>Burger</p>
+      </div>
     </div>
   );
 }
