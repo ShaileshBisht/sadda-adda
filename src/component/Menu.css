@@ -20,3 +20,8 @@
   padding: 10px;
   color: rgb(249, 189, 73);
 }
+
+.menu__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
