@@ -4,7 +4,7 @@ import MenuCard from "./MenuCard";
 
 function Menu() {
   return (
-    <div className="menu ">
+    <div className="menu">
       <div className="menu__box container">
         <div className="menu__title">
           <h1>our menu</h1>

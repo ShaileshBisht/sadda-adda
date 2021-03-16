@@ -25,4 +25,5 @@
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+  margin-top: 100px;
 }
