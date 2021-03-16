@@ -17,6 +17,7 @@ function Menu() {
           <MenuCard />
           <MenuCard />
           <MenuCard />
+          <MenuCard />
         </div>
       </div>
     </div>
