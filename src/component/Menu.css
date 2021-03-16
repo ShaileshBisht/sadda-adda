@@ -2,9 +2,9 @@
   background-color: var(--primary);
 }
 
-.menu__title {
+.menu__box {
   text-align: center;
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .menu__title h1 {
