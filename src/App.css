@@ -9,12 +9,13 @@
 :root {
   --dark: #000;
   --light: #fff;
-  --primary: ;
+  --primary: #fdf7ef;
   --secondary: yellow;
 }
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .container {
