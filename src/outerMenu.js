@@ -20,7 +20,7 @@ const outerMenu = [
   },
   {
     id: 3,
-    name: "juice",
+    name: "shake",
     imgSrc: img3,
   },
   {
