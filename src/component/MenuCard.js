@@ -2,14 +2,14 @@ import React from "react";
 import "./MenuCard.css";
 import img1 from "../assets/menu/burger.jpg";
 
-function MenuCard() {
+function MenuCard({ name, imgSrc }) {
   return (
     <div className="menuCard">
       <div className="menuCard__img">
-        <img src={img1} alt="" />
+        <img src={imgSrc} alt="" />
       </div>
       <div className="menuCard__name">
-        <p>Burger</p>
+        <p>{name}</p>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Menu.css";
 import MenuCard from "./MenuCard";
+import outerMenu from "../outerMenu";
 
 function Menu() {
   return (
@@ -13,11 +14,13 @@ function Menu() {
           </p>
         </div>
         <div className="menu__card">
+          {outerMenu.map(({ id, name, imgSrc }) => (
+            <MenuCard key={id} name={name} imgSrc={imgSrc} />
+          ))}
+          {/* <MenuCard />
           <MenuCard />
           <MenuCard />
-          <MenuCard />
-          <MenuCard />
-          <MenuCard />
+          <MenuCard /> */}
         </div>
       </div>
     </div>
