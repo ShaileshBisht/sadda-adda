@@ -4,6 +4,7 @@ import HeroSection from "./component/HeroSection";
 import NavBar from "./component/NavBar";
 import Menu from "./component/Menu";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SubMenu from "./component/SubMenu";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/submenu">
-            <h1>hello</h1>
+            <SubMenu />
           </Route>
           <Route exact path="/">
             <NavBar />
