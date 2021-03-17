@@ -3,6 +3,7 @@
   height: 300px;
   position: relative;
   border: 2px solid #fff;
+  cursor: pointer;
 }
 
 .menuCard:hover .menuCard__img img {
