@@ -1,10 +1,18 @@
 import React from "react";
 import "./SubMenu.css";
+import SubsubMenu from "./SubsubMenu";
 
 function SubMenu() {
   return (
     <div className="subMenu">
-      <h1>i am submenu</h1>
+      <div className="subMenu__box container">
+        <div className="subMenu__top">
+          <p>burger</p>
+        </div>
+        <div className="subMenu__bottom">
+          <SubsubMenu />
+        </div>
+      </div>
     </div>
   );
 }
