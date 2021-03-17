@@ -1,4 +1,5 @@
 import React from "react";
+import "./SubsubMenu.css";
 
 function SubsubMenu() {
   return (
@@ -6,7 +7,7 @@ function SubsubMenu() {
       <div className="subsubMenu__box">
         <div className="subsubMenu__top">
           <p>King burger</p>
-          <p>150</p>
+          <span>150</span>
         </div>
         <div className="subsubMenu__bottom">
           <p>

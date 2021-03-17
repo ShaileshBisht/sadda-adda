@@ -1,0 +1,28 @@
+.subsubMenu {
+  width: 100%;
+}
+
+.subsubMenu__box {
+  padding: 30px;
+}
+
+.subsubMenu__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subsubMenu__top p {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.subsubMenu__top span {
+  font-size: 3.5rem;
+}
+
+.subsubMenu__bottom p {
+  font-size: 2rem;
+}
