@@ -9,7 +9,7 @@ function SubsubMenu() {
           <p>King burger</p>
           <span>150</span>
         </div>
-        <div className="subsubMenu__bottom">
+        <div className="subsubMenu__discription">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
             voluptas.

@@ -1,5 +1,6 @@
 .subsubMenu {
   width: 100%;
+  background-color: #fff;
 }
 
 .subsubMenu__box {
@@ -23,6 +24,6 @@
   font-size: 3.5rem;
 }
 
-.subsubMenu__bottom p {
+.subsubMenu__discription p {
   font-size: 2rem;
 }
