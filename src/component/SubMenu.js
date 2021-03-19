@@ -19,7 +19,7 @@ function SubMenu() {
     <div className="subMenu">
       <div className="subMenu__box container">
         <div className="subMenu__top">
-          <p>burger</p>
+          <p>{currentMenu.payload}</p>
         </div>
         <div className="subMenu__bottom">
           {menuData?.map(({ id, name, price, discription }) => (
