@@ -1,5 +1,6 @@
 import React from "react";
 import "./Chef.css";
+import ChefCard from "./ChefCard";
 
 function Chef() {
   return (
@@ -10,6 +11,9 @@ function Chef() {
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, et.
           </p>
+        </div>
+        <div className="chef__box">
+          <ChefCard />
         </div>
       </div>
     </div>
