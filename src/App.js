@@ -3,6 +3,7 @@ import "./App.css";
 import HeroSection from "./component/HeroSection";
 import NavBar from "./component/NavBar";
 import Menu from "./component/Menu";
+import About from "./component/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SubMenu from "./component/SubMenu";
 
@@ -18,6 +19,7 @@ function App() {
             <NavBar />
             <HeroSection />
             <Menu />
+            <About />
           </Route>
         </Switch>
       </Router>
