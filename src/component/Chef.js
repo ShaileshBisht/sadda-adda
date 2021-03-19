@@ -12,7 +12,9 @@ function Chef() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, et.
           </p>
         </div>
-        <div className="chef__box">
+        <div className="chef__card">
+          <ChefCard />
+          <ChefCard />
           <ChefCard />
         </div>
       </div>
