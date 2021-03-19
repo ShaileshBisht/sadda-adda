@@ -13,7 +13,6 @@
 }
 
 .about__content {
-  /* display: flex; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 
@@ -21,7 +20,6 @@
 }
 
 .about__left {
-  /* flex: 0.5; */
   text-align: left;
   padding: 10px;
 }
@@ -39,7 +37,6 @@
 .about__right {
   padding: 40px 10px;
   height: 400px;
-  /* flex: 0.5; */
 }
 
 .about__right img {
