@@ -18,8 +18,8 @@ function App() {
           <Route exact path="/">
             <NavBar />
             <HeroSection />
-            <Menu />
             <About />
+            <Menu />
           </Route>
         </Switch>
       </Router>
