@@ -17,10 +17,6 @@ function Menu() {
           {outerMenu.map(({ id, name, imgSrc }) => (
             <MenuCard key={id} name={name} imgSrc={imgSrc} />
           ))}
-          {/* <MenuCard />
-          <MenuCard />
-          <MenuCard />
-          <MenuCard /> */}
         </div>
       </div>
     </div>

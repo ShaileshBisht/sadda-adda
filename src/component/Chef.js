@@ -4,7 +4,14 @@ import "./Chef.css";
 function Chef() {
   return (
     <div className="chef">
-      <h1>i am chef component</h1>
+      <div className="chef__box container">
+        <div className="chef__title">
+          <h1>our chef</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, et.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

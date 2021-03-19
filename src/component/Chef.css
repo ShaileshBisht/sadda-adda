@@ -1,0 +1,27 @@
+.chef {
+  background-color: var(--primary);
+}
+
+.chef__box {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.chef__title h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 15px;
+  color: rgb(230, 0, 51);
+
+  color: #131313;
+  letter-spacing: 0.15em;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+
+.chef__title p {
+  font-size: 3rem;
+  padding: 10px;
+  color: rgb(249, 189, 73);
+}
