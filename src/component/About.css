@@ -1,0 +1,16 @@
+.about {
+  background-color: var(--primary);
+}
+
+.about__box {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.about__title h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 15px;
+  color: rgb(230, 0, 51);
+}
