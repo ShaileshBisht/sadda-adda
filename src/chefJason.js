@@ -18,7 +18,8 @@ const chefDetails = [
   {
     id: 1,
     name: "vipul",
-    disp: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, et.",
+    disp:
+      "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
     imgSrc: img3,
   },
 ];

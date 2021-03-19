@@ -2,19 +2,18 @@ import React from "react";
 import "./ChefCard.css";
 import chef1 from "../assets/chef/chef1.jpg";
 
-function ChefCard() {
+function ChefCard({ name, disp, imgSrc }) {
   return (
     <div className="chefCard">
       <div className="chefCard__box">
         <div className="chefCardBox-inner">
-          <img src={chef1} alt="" />
+          <img src={imgSrc} alt="" />
         </div>
         <div className="chefCardBox-outer">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-            magnam in magni reiciendis. Tempore, quo. Quisquam eum accusantium
-            architecto neque?
-          </p>
+          <div className="chefCardBox-outeribox">
+            <h1>{name}</h1>
+            <p>{disp}</p>
+          </div>
         </div>
       </div>
     </div>

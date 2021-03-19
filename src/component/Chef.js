@@ -1,8 +1,10 @@
 import React from "react";
 import "./Chef.css";
 import ChefCard from "./ChefCard";
+import chefDetails from "../chefJason";
 
 function Chef() {
+  console.log(chefDetails);
   return (
     <div className="chef">
       <div className="chef__box container">
@@ -13,9 +15,12 @@ function Chef() {
           </p>
         </div>
         <div className="chef__card">
-          <ChefCard />
-          <ChefCard />
-          <ChefCard />
+          {chefDetails.map(({ id, name, disp, imgSrc }) => (
+            <ChefCard key={id} name={name} disp={disp} imgSrc={imgSrc} />
+          ))}
+          {/* <ChefCard />
+    <ChefCard />
+    <ChefCard /> */}
         </div>
       </div>
     </div>

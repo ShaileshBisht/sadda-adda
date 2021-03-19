@@ -59,7 +59,14 @@
     0% 85%
   );
 }
-.chefCardBox-outer p {
+
+.chefCardBox-outeribox h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.chefCardBox-outeribox p {
   font-size: 2rem;
   padding: 15px;
   font-weight: 400;
