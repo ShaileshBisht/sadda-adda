@@ -7,6 +7,7 @@ import About from "./component/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SubMenu from "./component/SubMenu";
 import Chef from "./component/Chef";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/submenu">
             <SubMenu />
+            <Footer />
           </Route>
           <Route exact path="/">
             <NavBar />
@@ -22,6 +24,7 @@ function App() {
             <About />
             <Menu />
             <Chef />
+            <Footer />
           </Route>
         </Switch>
       </Router>
