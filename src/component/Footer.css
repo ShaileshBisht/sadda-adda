@@ -53,3 +53,14 @@
   font-weight: 500;
   padding: 20px 0;
 }
+
+@media only screen and (max-width: 770px) {
+  .footer__box-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer__left {
+    margin-bottom: 20px;
+  }
+}
