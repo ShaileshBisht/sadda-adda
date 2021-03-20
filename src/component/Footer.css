@@ -1,3 +1,8 @@
+.footer {
+  background-color: var(--dark);
+  color: var(--secondary);
+}
+
 .footer__box-top {
   display: flex;
   align-items: center;
@@ -23,6 +28,16 @@
 
 .footer__right-icon {
   text-align: center;
+}
+
+.footer-icon {
+  color: #fff;
+  font-size: 30px !important;
+}
+
+.footer-icon:hover {
+  transform: scale(1.5);
+  color: var(--secondary);
 }
 
 .footer__right-icon a {

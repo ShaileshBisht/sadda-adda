@@ -26,22 +26,22 @@ function Footer() {
             <div className="footer__right-icon">
               <IconButton aria-label="delete">
                 <a href="#">
-                  <InstagramIcon fontSize="large" />
+                  <InstagramIcon className="footer-icon" />
                 </a>
               </IconButton>
               <IconButton aria-label="delete">
                 <a href="#">
-                  <FacebookIcon fontSize="large" />
+                  <FacebookIcon className="footer-icon" />
                 </a>
               </IconButton>
               <IconButton aria-label="delete">
                 <a href="#">
-                  <ExploreIcon fontSize="large" />
+                  <ExploreIcon className="footer-icon" />
                 </a>
               </IconButton>
               <IconButton aria-label="delete">
                 <a href="#">
-                  <WhatsAppIcon fontSize="large" />
+                  <WhatsAppIcon className="footer-icon" />
                 </a>
               </IconButton>
             </div>
