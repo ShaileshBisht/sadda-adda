@@ -37,6 +37,7 @@
   padding: 2px 10px;
   margin-left: 20px;
   color: var(--secondary);
+  border-radius: 10px;
 }
 
 .navBar__link:hover {
@@ -44,6 +45,14 @@
   font-weight: 700;
   color: var(--dark);
   background-color: var(--secondary);
+}
+
+.offer {
+  background-color: #fff;
+  color: black;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 1.8rem;
 }
 
 .navBar__toggleButton {

@@ -26,16 +26,19 @@ function NavBar() {
             home
           </a>
           <a href="#" className="navBar__link">
+            about
+          </a>
+          <a href="#" className="navBar__link">
             menu
           </a>
           <a href="#" className="navBar__link">
             chef
           </a>
-          <a href="#" className="navBar__link">
-            about
-          </a>
-          <p onClick={() => history.push("./offers")} className="navBar__link">
-            offers
+          <p
+            onClick={() => history.push("./offers")}
+            className="navBar__link offer"
+          >
+            %offers%
           </p>
         </div>
         <div className="navBar__toggleButton">

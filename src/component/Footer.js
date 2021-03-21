@@ -50,7 +50,7 @@ function Footer() {
         <div className="footer__box-bottom">
           <div className="footer__copyRight">
             <p>
-              Copyright <span>&#169;</span> 2021 Created by Sapna Pandey
+              Copyright <span>&#169;</span> 2021 Created by Shailesh Bisht
             </p>
           </div>
         </div>
