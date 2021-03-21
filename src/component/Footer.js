@@ -50,7 +50,7 @@ function Footer() {
         <div className="footer__box-bottom">
           <div className="footer__copyRight">
             <p>
-              Copyright <span>&#169;</span> 2021 Sadda-Adda || Shailesh Bisht{" "}
+              Copyright <span>&#169;</span> 2021 Created by Sapna Pandey
             </p>
           </div>
         </div>
