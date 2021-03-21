@@ -1,4 +1,10 @@
-.offer__title h1 {
+.offers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offers__title h1 {
   text-align: center;
   font-size: 5rem;
   text-transform: uppercase;

@@ -11,10 +11,10 @@ function Offers() {
   return (
     <div className="offers ">
       <div className="offers__box container">
-        <div className="offer__title">
+        <div className="offers__title">
           <h1>our best offers</h1>
         </div>
-        <div className="offer__caroursel"></div>
+        <div className="offers__caroursel"></div>
         <Carousel
           dynamicHeight={true}
           infiniteLoop={true}
