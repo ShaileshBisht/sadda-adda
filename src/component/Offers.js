@@ -9,34 +9,40 @@ import offer4 from "../assets/offers/offer4.jpg";
 
 function Offers() {
   return (
-    <div className="offers container">
-      <Carousel
-        dynamicHeight={true}
-        infiniteLoop={true}
-        autoPlay={true}
-        showArrows={true}
-        transitionTime="1"
-        verticalSwipe="vertical"
-        emulateTouch={true}
-        swipeable={true}
-      >
-        <div>
-          <img src={offer1} alt="" />
-          <p className="legend">offers 1</p>
+    <div className="offers ">
+      <div className="offers__box container">
+        <div className="offer__title">
+          <h1>our best offers</h1>
         </div>
-        <div>
-          <img src={offer2} alt="" />
-          <p className="legend">offers 2</p>
-        </div>
-        <div>
-          <img src={offer3} alt="" />
-          <p className="legend">offers 3</p>
-        </div>
-        <div>
-          <img src={offer4} alt="" />
-          <p className="legend">offers 4</p>
-        </div>
-      </Carousel>
+        <div className="offer__caroursel"></div>
+        <Carousel
+          dynamicHeight={true}
+          infiniteLoop={true}
+          autoPlay={true}
+          showArrows={true}
+          transitionTime="1"
+          verticalSwipe="vertical"
+          emulateTouch={true}
+          swipeable={true}
+        >
+          <div>
+            <img src={offer1} alt="" />
+            <p className="legend">offers 1</p>
+          </div>
+          <div>
+            <img src={offer2} alt="" />
+            <p className="legend">offers 2</p>
+          </div>
+          <div>
+            <img src={offer3} alt="" />
+            <p className="legend">offers 3</p>
+          </div>
+          <div>
+            <img src={offer4} alt="" />
+            <p className="legend">offers 4</p>
+          </div>
+        </Carousel>
+      </div>
     </div>
   );
 }

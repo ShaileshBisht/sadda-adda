@@ -3,8 +3,10 @@ import "./NavBar.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 import { IconButton } from "@material-ui/core";
+import { useHistory } from "react-router";
 
 function NavBar() {
+  const history = useHistory();
   const [toggleBtn, setToggleBtn] = useState(false);
 
   return (
@@ -32,9 +34,9 @@ function NavBar() {
           <a href="#" className="navBar__link">
             about
           </a>
-          <a href="#" className="navBar__link">
-            contact
-          </a>
+          <p onClick={() => history.push("./offers")} className="navBar__link">
+            offers
+          </p>
         </div>
         <div className="navBar__toggleButton">
           <IconButton onClick={() => setToggleBtn(!toggleBtn)}>
