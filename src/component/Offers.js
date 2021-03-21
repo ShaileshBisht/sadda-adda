@@ -37,10 +37,6 @@ function Offers() {
             <img src={offer3} alt="" />
             <p className="legend">offers 3</p>
           </div>
-          <div>
-            <img src={offer4} alt="" />
-            <p className="legend">offers 4</p>
-          </div>
         </Carousel>
       </div>
     </div>
