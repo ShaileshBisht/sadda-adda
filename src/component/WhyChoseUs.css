@@ -17,3 +17,10 @@
   letter-spacing: 0.15em;
   text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
+
+.whyChoseUs__card {
+  padding: 20px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

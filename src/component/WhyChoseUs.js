@@ -11,6 +11,11 @@ function WhyChoseUs() {
         </div>
         <div className="whyChoseUs__card">
           <WhyChoseUsCard />
+          <WhyChoseUsCard />
+          <WhyChoseUsCard />
+          <WhyChoseUsCard />
+          <WhyChoseUsCard />
+          <WhyChoseUsCard />
         </div>
       </div>
     </div>

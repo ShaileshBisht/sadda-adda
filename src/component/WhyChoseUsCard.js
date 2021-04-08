@@ -16,9 +16,7 @@ function WhyChoseUsCard() {
       <div className="whyCoseUsCard__bottom">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores magni
-          minus enim nobis! Odio officiis, vitae veniam eum, consectetur magnam
-          beatae quibusdam ratione corporis accusantium dicta molestiae
-          laboriosam esse repellat.
+          minus enim nobis! Odio officiis, vitae veniam eum, consectetur.
         </p>
       </div>
     </div>
