@@ -9,6 +9,7 @@ import SubMenu from "./component/SubMenu";
 import Chef from "./component/Chef";
 import Footer from "./component/Footer";
 import Offers from "./component/Offers";
+import WhyChoseUs from "./component/WhyChoseUs";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <NavBar />
             <HeroSection />
             <About />
+            <WhyChoseUs />
             <Menu />
             <Chef />
             <Footer />
