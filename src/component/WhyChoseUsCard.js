@@ -1,10 +1,26 @@
 import React from "react";
 import "./WhyChoseUsCard.css";
+import img1 from "../assets/chooseUs/img1.png";
 
 function WhyChoseUsCard() {
   return (
     <div className="whyCoseUsCard">
-      <h1>WhyCoseUsCard</h1>
+      <div className="whyCoseUsCard__top">
+        <div className="whyCoseUsCard__top-left">
+          <img className="ehyChoseUs__img" src={img1} alt="" />
+        </div>
+        <div className="whyCoseUsCard__top-right">
+          <p>sample headline</p>
+        </div>
+      </div>
+      <div className="whyCoseUsCard__bottom">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores magni
+          minus enim nobis! Odio officiis, vitae veniam eum, consectetur magnam
+          beatae quibusdam ratione corporis accusantium dicta molestiae
+          laboriosam esse repellat.
+        </p>
+      </div>
     </div>
   );
 }
