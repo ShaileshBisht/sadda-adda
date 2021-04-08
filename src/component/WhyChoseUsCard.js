@@ -7,7 +7,7 @@ function WhyChoseUsCard() {
     <div className="whyCoseUsCard">
       <div className="whyCoseUsCard__top">
         <div className="whyCoseUsCard__top-left">
-          <img className="ehyChoseUs__img" src={img1} alt="" />
+          <img className="whyChoseUs__img" src={img1} alt="" />
         </div>
         <div className="whyCoseUsCard__top-right">
           <p>sample headline</p>
