@@ -25,10 +25,10 @@ function NavBar() {
           <a href="#" className="navBar__link">
             home
           </a>
-          <a href="#" className="navBar__link">
+          <a href="#about" className="navBar__link">
             about
           </a>
-          <a href="#" className="navBar__link">
+          <a href="#menu" className="navBar__link">
             menu
           </a>
           <a href="#" className="navBar__link">

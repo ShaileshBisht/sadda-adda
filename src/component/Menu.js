@@ -12,7 +12,7 @@ function Menu() {
     });
   }, []);
   return (
-    <div className="menu">
+    <div className="menu" id="menu">
       <div className="menu__box container">
         <div
           className="menu__title"
