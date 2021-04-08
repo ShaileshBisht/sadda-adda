@@ -1,0 +1,19 @@
+.whyChoseUs {
+  background-color: var(--primary);
+}
+
+.whyChoseUS__box {
+  text-align: center;
+  padding-top: 100px;
+  /* padding-bottom: 100px; */
+}
+
+.whyChoseUs__title h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 15px;
+  color: #131313;
+  letter-spacing: 0.15em;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}

@@ -16,7 +16,7 @@ function About() {
         <div className="container">
           <div className="about__content">
             <div className="about__left" data-aos="fade-right">
-              <span>about</span>
+              <span>about us</span>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quisquam dignissimos omnis eaque, nesciunt porro sapiente eum
